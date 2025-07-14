@@ -25,17 +25,25 @@ A modern full-stack starter template built with:
 
 ## 📦 Tech Stack
 
-- React 18
-- Vite 5
+- React 19
+- Vite
 - Supabase (Auth, Postgres, Edge Functions)
 - ShadCN UI
-- Tailwind CSS 3
+- Tailwind CSS 4
 - TypeScript
 - ESLint + Prettier
 
 ---
 
 ## 🛠️ Getting Started
+
+### 🔧 Environment Variables
+
+This project uses environment variables to connect with Supabase.
+
+1. Duplicate `.env.example` and rename it to `.env`
+
+### 🔧 Dev Server
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/react-vite-shadcn-supabase-starter.git
